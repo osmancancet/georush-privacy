@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GeoRush — Support</title>
+<meta name="description" content="Support and help for the GeoRush mobile game. Contact, FAQ and privacy.">
+<style>
+  :root {
+    --bg:#0f1010; --surface:#17181a; --text:#e9ebe6; --muted:#969c95;
+    --accent:#39ff14; --accent-soft:rgba(57,255,20,.14); --border:rgba(255,255,255,.09);
+    --rule:rgba(255,255,255,.06); --shadow:0 0 22px rgba(57,255,20,.28); color-scheme:dark;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f6f8f4; --surface:#fff; --text:#161a15; --muted:#5a6159;
+      --accent:#1c8f0d; --accent-soft:rgba(28,143,13,.10); --border:rgba(0,0,0,.10);
+      --rule:rgba(0,0,0,.07); --shadow:0 0 0 rgba(0,0,0,0); color-scheme:light; }
+  }
+  *{box-sizing:border-box;} body{margin:0;}
+  .pp{
+    --font-sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --font-mono:ui-monospace,"SF Mono","JetBrains Mono","Roboto Mono",Menlo,Consolas,monospace;
+    background:var(--bg); color:var(--text); font-family:var(--font-sans); line-height:1.66;
+    -webkit-font-smoothing:antialiased; min-height:100vh; padding:clamp(28px,6vw,72px) 20px 64px;
+  }
+  .pp__wrap{max-width:680px;margin:0 auto;}
+  .pp__shapes{display:flex;gap:12px;align-items:flex-end;margin-bottom:26px;}
+  .pp__shape{box-shadow:var(--shadow);}
+  .pp__sq{width:30px;height:30px;border-radius:5px;background:var(--accent);}
+  .pp__ci{width:26px;height:26px;border-radius:50%;background:var(--accent);opacity:.72;}
+  .pp__tri{width:0;height:0;border-left:15px solid transparent;border-right:15px solid transparent;border-bottom:27px solid var(--accent);opacity:.5;}
+  .pp__eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin:0 0 10px;}
+  .pp__title{font-size:clamp(30px,6vw,44px);font-weight:800;letter-spacing:-.02em;line-height:1.05;text-wrap:balance;margin:0 0 14px;}
+  .pp__lede{font-size:18px;margin:22px 0 8px;}
+  .pp__lede .muted{color:var(--muted);}
+  .pp__card{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:12px;padding:20px;margin:26px 0;}
+  .pp__card h2{margin:0 0 6px;font-size:16px;}
+  .pp__contact{font-family:var(--font-mono);font-size:16px;background:var(--accent-soft);padding:4px 9px;border-radius:6px;word-break:break-all;}
+  .pp section{padding:26px 0;border-bottom:1px solid var(--rule);}
+  .pp h2{font-size:20px;font-weight:750;margin:0 0 12px;}
+  .pp h3{font-size:15px;font-weight:700;margin:18px 0 4px;}
+  .pp p{margin:0 0 12px;} .pp .muted{color:var(--muted);}
+  .pp a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent-soft);}
+  .pp a:hover{border-bottom-color:var(--accent);}
+  .pp__foot{margin-top:30px;font-family:var(--font-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+</style>
+</head>
+<body>
+<main class="pp">
+  <div class="pp__wrap">
+    <header>
+      <div class="pp__shapes" aria-hidden="true">
+        <div class="pp__shape pp__sq"></div>
+        <div class="pp__shape pp__ci"></div>
+        <div class="pp__shape pp__tri"></div>
+      </div>
+      <p class="pp__eyebrow">GeoRush · Support</p>
+      <h1 class="pp__title">Help &amp; Support</h1>
+      <p class="pp__lede">Something not working, or just want to reach us?
+        <span class="muted">GeoRush is a small indie game and we read every message.</span></p>
+    </header>
+
+    <div class="pp__card">
+      <h2>Contact us</h2>
+      <p style="margin:0">Email <span class="pp__contact">osmancancetlenbik@gmail.com</span></p>
+      <p class="muted" style="margin:8px 0 0">We usually reply within a couple of days. Please include your device model and OS version so we can help faster.</p>
+    </div>
+
+    <section>
+      <h2>Frequently asked</h2>
+
+      <h3>How do I play?</h3>
+      <p>Tap anywhere to jump your neon square over obstacles. Tap again in mid-air for a double jump. Grab coins, dodge the flying obstacles, and survive as the world speeds up.</p>
+
+      <h3>Where is my progress saved?</h3>
+      <p>Your high score, coins, skins and upgrades are stored on your device. They stay as long as the app is installed. Deleting the app clears them.</p>
+
+      <h3>Why do I see ads?</h3>
+      <p>Ads (via Google AdMob) keep GeoRush free. Banners appear only on the menu and game-over screens — never during a run. You can limit ad personalization from your device's ad settings.</p>
+
+      <h3>The game won't load / an ad space is blank</h3>
+      <p>Try closing and reopening the app, and check your internet connection. A blank ad space simply means no ad was available — the game keeps working normally.</p>
+
+      <h3>I found a bug or have a suggestion</h3>
+      <p>Please email us the details — bug reports and ideas genuinely shape the next update.</p>
+    </section>
+
+    <section style="border-bottom:none">
+      <h2>Privacy</h2>
+      <p>Read how GeoRush handles data in our <a href="./index.html">Privacy Policy</a>.</p>
+    </section>
+
+    <div class="pp__foot">
+      <span>GEORUSH · SUPPORT</span>
+      <span>osmancancetlenbik@gmail.com</span>
+    </div>
+  </div>
+</main>
+</body>
+</html>
