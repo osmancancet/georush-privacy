@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GeoRush — Privacy Policy</title>
+<meta name="description" content="Privacy Policy for the GeoRush mobile game (iOS & Android). Covers AdMob advertising data and your choices.">
+<style>
+  :root {
+    --bg: #0f1010;
+    --surface: #17181a;
+    --text: #e9ebe6;
+    --muted: #969c95;
+    --accent: #39ff14;
+    --accent-soft: rgba(57, 255, 20, 0.14);
+    --border: rgba(255, 255, 255, 0.09);
+    --rule: rgba(255, 255, 255, 0.06);
+    --shadow: 0 0 22px rgba(57, 255, 20, 0.28);
+    color-scheme: dark;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f6f8f4;
+      --surface: #ffffff;
+      --text: #161a15;
+      --muted: #5a6159;
+      --accent: #1c8f0d;
+      --accent-soft: rgba(28, 143, 13, 0.10);
+      --border: rgba(0, 0, 0, 0.10);
+      --rule: rgba(0, 0, 0, 0.07);
+      --shadow: 0 0 0 rgba(0, 0, 0, 0);
+      color-scheme: light;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; }
+
+  .pp {
+    --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", "Roboto Mono", Menlo, Consolas, monospace;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    line-height: 1.66;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    padding: clamp(28px, 6vw, 72px) 20px 64px;
+  }
+
+  .pp__wrap { max-width: 720px; margin: 0 auto; }
+
+  .pp__shapes { display: flex; gap: 12px; align-items: flex-end; margin-bottom: 26px; }
+  .pp__shape { box-shadow: var(--shadow); }
+  .pp__sq { width: 30px; height: 30px; border-radius: 5px; background: var(--accent); }
+  .pp__ci { width: 26px; height: 26px; border-radius: 50%; background: var(--accent); opacity: 0.72; }
+  .pp__tri {
+    width: 0; height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 27px solid var(--accent);
+    opacity: 0.5;
+  }
+
+  .pp__eyebrow {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 10px;
+  }
+  .pp__title {
+    font-size: clamp(30px, 6vw, 44px);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    text-wrap: balance;
+    margin: 0 0 14px;
+  }
+  .pp__meta {
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    color: var(--muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid var(--border);
+  }
+  .pp__meta b { color: var(--text); font-weight: 600; }
+
+  .pp__lede { font-size: 18px; color: var(--text); margin: 30px 0 8px; }
+  .pp__lede .muted { color: var(--muted); }
+
+  .pp section { padding: 30px 0; border-bottom: 1px solid var(--rule); }
+  .pp h2 {
+    font-size: 20px;
+    font-weight: 750;
+    letter-spacing: -0.01em;
+    margin: 0 0 12px;
+    display: flex;
+    gap: 12px;
+    align-items: baseline;
+  }
+  .pp h2 .num {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--accent);
+    font-weight: 600;
+    flex: none;
+    width: 26px;
+  }
+  .pp h3 { font-size: 15px; font-weight: 700; margin: 20px 0 6px; color: var(--text); }
+  .pp p, .pp li { color: var(--text); }
+  .pp p { margin: 0 0 12px; }
+  .pp .muted { color: var(--muted); }
+  .pp ul { margin: 0 0 12px; padding-left: 20px; }
+  .pp li { margin: 0 0 7px; }
+  .pp li::marker { color: var(--accent); }
+  .pp a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-soft); }
+  .pp a:hover { border-bottom-color: var(--accent); }
+  .pp a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+  .pp__callout {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin: 4px 0 14px;
+  }
+  .pp__callout p:last-child { margin-bottom: 0; }
+
+  .pp__contact {
+    font-family: var(--font-mono);
+    font-size: 14px;
+    background: var(--accent-soft);
+    color: var(--text);
+    padding: 3px 8px;
+    border-radius: 5px;
+    word-break: break-all;
+  }
+
+  .pp__foot {
+    margin-top: 30px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+</style>
+</head>
+<body>
+<main class="pp">
+  <div class="pp__wrap">
+    <header>
+      <div class="pp__shapes" aria-hidden="true">
+        <div class="pp__shape pp__sq"></div>
+        <div class="pp__shape pp__ci"></div>
+        <div class="pp__shape pp__tri"></div>
+      </div>
+      <p class="pp__eyebrow">GeoRush · Legal</p>
+      <h1 class="pp__title">Privacy Policy</h1>
+      <div class="pp__meta">
+        <span>Effective <b>9 July 2026</b></span>
+        <span>App <b>GeoRush</b></span>
+        <span>Platforms <b>iOS &amp; Android</b></span>
+      </div>
+    </header>
+
+    <p class="pp__lede">
+      GeoRush is a free, ad-supported hyper-casual arcade game.
+      <span class="muted">This policy explains exactly what data the app touches — which is very little, and almost none of it by us directly.</span>
+    </p>
+
+    <section>
+      <h2><span class="num">01</span> Who we are</h2>
+      <p>
+        "GeoRush", "we", "us" and "our" refer to the developer of the GeoRush mobile
+        game. This policy covers the GeoRush apps published on the Apple App Store and
+        Google Play. Questions? See <a href="#contact">Contact</a> at the end.
+      </p>
+    </section>
+
+    <section>
+      <h2><span class="num">02</span> Information we collect</h2>
+      <p>We designed GeoRush to need as little of your data as possible.</p>
+
+      <h3>Collected by us — none directly</h3>
+      <p>
+        We do not ask you to create an account, and we do not collect your name, email,
+        phone number, or contacts. Your game progress — high score, level, coins, skins,
+        power-up upgrades, daily streak and settings — is stored <b>only on your device</b>
+        (via local storage) and is never sent to us or any server we control.
+      </p>
+
+      <h3>Collected by our advertising partner — Google AdMob</h3>
+      <p>
+        GeoRush shows ads through <b>Google AdMob</b>. To serve, cap, measure and protect
+        those ads from fraud, Google's SDK may automatically process limited technical data,
+        which can include:
+      </p>
+      <ul>
+        <li>a mobile advertising identifier (e.g. Google Advertising ID or Apple IDFA/IDFV);</li>
+        <li>coarse device and app information (device model, OS version, language, app version);</li>
+        <li>approximate, IP-derived location (country/region level) and ad-interaction events.</li>
+      </ul>
+      <p class="muted">
+        By default GeoRush requests <b>non-personalized ads</b>, which limits this data to
+        what is needed to deliver and measure ads rather than to build an advertising profile.
+      </p>
+    </section>
+
+    <section>
+      <h2><span class="num">03</span> How the information is used</h2>
+      <ul>
+        <li><b>To keep the game free</b> — ads fund GeoRush; the data above lets our partner deliver them.</li>
+        <li><b>To run the game</b> — your on-device progress is read and written locally so your scores and unlocks persist between sessions.</li>
+        <li><b>To keep ads fair and safe</b> — frequency capping and fraud/abuse prevention.</li>
+      </ul>
+      <p>We do not sell your personal information.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">04</span> Advertising &amp; your choices</h2>
+      <p>Google acts as a third-party advertising vendor. You are in control of ad personalization:</p>
+      <ul>
+        <li><b>iOS:</b> if we ever request tracking, iOS shows an App Tracking Transparency prompt — choosing "Ask App Not to Track" keeps ads non-personalized. You can change this anytime in <span class="muted">Settings → Privacy &amp; Security → Tracking</span>.</li>
+        <li><b>Android:</b> reset or delete your advertising ID, or opt out of ad personalization, in <span class="muted">Settings → Google → Ads</span>.</li>
+      </ul>
+      <div class="pp__callout">
+        <p class="muted">
+          How Google uses data from apps that use its services is described in Google's own
+          policy: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="num">05</span> Sharing &amp; third parties</h2>
+      <p>
+        We do not share personal information with anyone except as needed to show ads through
+        <b>Google AdMob</b>, which processes the data described in section 02 under its own
+        privacy policy. We may also disclose information if required by law or to protect our
+        rights and users' safety.
+      </p>
+    </section>
+
+    <section>
+      <h2><span class="num">06</span> Children's privacy</h2>
+      <p>
+        GeoRush is intended for a general audience and is <b>not directed to children under 13</b>
+        (or the equivalent minimum age in your country). We do not knowingly collect personal
+        information from children. If you believe a child has provided such information, contact
+        us and we will address it.
+      </p>
+    </section>
+
+    <section>
+      <h2><span class="num">07</span> Data retention &amp; deletion</h2>
+      <p>
+        Because your game data lives only on your device, <b>uninstalling GeoRush deletes it</b>.
+        You can also clear the app's storage from your device settings. Data processed by Google
+        for advertising is retained and deleted according to Google's policies; you can reset your
+        advertising identifier at any time as described in section 04.
+      </p>
+    </section>
+
+    <section>
+      <h2><span class="num">08</span> Your rights</h2>
+      <p>
+        Depending on where you live (for example under GDPR or CCPA), you may have rights to
+        access, correct, delete, or limit the processing of your personal data, and to opt out of
+        personalized advertising. Because we hold no account data about you, most of these rights
+        are exercised directly through your device's ad settings — or by contacting us below.
+      </p>
+    </section>
+
+    <section>
+      <h2><span class="num">09</span> Security</h2>
+      <p>
+        Your progress stays in your device's app storage, protected by your device's own security.
+        Ad requests are transmitted over encrypted connections. No method of storage or transmission
+        is ever completely secure, but we keep our data footprint intentionally small.
+      </p>
+    </section>
+
+    <section>
+      <h2><span class="num">10</span> Changes to this policy</h2>
+      <p>
+        We may update this policy as the app evolves or the law changes. Material changes will be
+        reflected by updating the "Effective" date above and, where appropriate, noted in the app
+        or store listing. Continued use of GeoRush after an update means you accept the revised policy.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2><span class="num">11</span> Contact</h2>
+      <p>
+        Questions or requests about this policy or your data? Reach us at
+        <span class="pp__contact">osmancancetlenbik@gmail.com</span>.
+      </p>
+      <p class="muted">We aim to respond within a reasonable time.</p>
+    </section>
+
+    <div class="pp__foot">
+      <span>GEORUSH · PRIVACY POLICY</span>
+      <span>v1.0 — 9 JULY 2026</span>
+    </div>
+  </div>
+</main>
+</body>
+</html>
